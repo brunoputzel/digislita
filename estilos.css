@@ -1,0 +1,74 @@
+body {
+	background: #ffc876;
+	background: linear-gradient(to right, rgb(224, 189, 107), rgb(255, 144, 173));
+	color: white;
+	margin: 0;
+	font-family: rubik;
+}
+
+.container {
+	padding: 40px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 54px;
+}
+
+.digidex {
+	margin-top: -100px;
+	
+}
+
+.card {
+	margin-top: 10px;
+	list-style: none;
+	padding: 45px;
+	color: #222;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+}
+
+#apresentacao {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.card:hover {
+	animation: bounce 0.5s linear;
+}
+
+.card-title {
+
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+}
+
+
+.card-image {
+	height: 180px;
+	position: relative;
+	z-index: 2;
+}
+
+@keyframes bounce {
+	20% {
+			transform: translateY(-6px);
+	}
+	40% {
+			transform: translateY(0px);
+	}
+
+	80% {
+			transform: translateY(-2px);
+	}
+	100% {
+			transform: translateY(0);
+	}
+}
